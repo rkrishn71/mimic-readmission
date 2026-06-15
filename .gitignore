@@ -1,0 +1,16 @@
+# Data - NEVER commit MIMIC data to GitHub
+data/
+*.csv
+*.csv.gz
+*.parquet
+
+# Python
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+credentials.json
+
+# Mac
+.DS_Store
